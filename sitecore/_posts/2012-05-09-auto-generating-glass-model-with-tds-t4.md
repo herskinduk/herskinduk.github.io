@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Auto-generating a Glass model with TDS and T4
+redirect_from: /blog/2012/05/auto-generating-glass-model-with-tds-t4/
 ---
 
 I just read a great blog post by [Mike Edwards](https://twitter.com/#!/mikeedwards83) on using the [T4/TDS auto-generation framework](/blog/2012/03/automatic-sitecore-model-generation) to generate a Glass model for Sitecore. This example really shows how&nbsp;versatile&nbsp;the concept is and how it can be used to generate any model for Sitecore<!--more-->:

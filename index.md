@@ -1,7 +1,8 @@
 ---
 layout: homepage
 title: The Aproppos Sitecore Blog
-tagline: observations and reflections on the kernel    
+tagline: observations and reflections on the kernel
+redirect_from: /blog/
 ---
 {% include JB/setup %}
 
@@ -23,4 +24,4 @@ tagline: observations and reflections on the kernel
   {% endfor %}
 
 <hr>
-<a href="archive.html">Older posts</a>
+<a href="archive.html">Archive</a>

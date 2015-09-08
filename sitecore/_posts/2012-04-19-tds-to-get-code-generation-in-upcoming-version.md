@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TDS to get T4 code generation in upcoming version
+redirect_from: /blog/2012/04/tds-to-get-code-generation-in-upcoming-version/
 ---
 
 Great news today. The guys at [Hedgehog Development](http://www.hhogdev.com) has just announced that the upcoming version of TDS will have T4 code generation built in. Here is a sneak peak from Hedgehogs YouTube channel:

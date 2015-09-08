@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Heads up! Caching statically included renderings
+redirect_from: /blog/2010/08/heads-up-caching-statically-included-renderings/
 ---
 
 Adding Renderings and Sublayouts in Sitecore can be done in two ways.

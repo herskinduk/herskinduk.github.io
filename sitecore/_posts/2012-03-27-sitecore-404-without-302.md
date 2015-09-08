@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sitecore 404 without 302
+redirect_from: /blog/2012/03/sitecore-404-without-302/
 ---
 
 As I recently migrated the "Apropos Sitecore" blog from Typepad to Sitecore I put some effort in to setting up legacy URL rewriting. In case I missed anything I wanted to ensure that the 404 handling on the new blog was set up appropriately.

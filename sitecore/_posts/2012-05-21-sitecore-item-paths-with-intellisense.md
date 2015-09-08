@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sitecore item paths with IntelliSense (auto-generated)
+redirect_from: /blog/2012/05/sitecore-item-paths-with-intellisense/
 ---
 
 A while ago I presented my [Sitecore model auto-generation concept](/blog/2012/03/automatic-sitecore-model-generation) to [Sitecore’s UK User Group](http://www.sitecore.net/unitedkingdom/landing/unitedkingdom/usergroups). One of the perspectives I mentioned in [my presentation](/blog/2012/03/sug-notes-automatic-sitecore-model-generation) was using the technique to generate item paths. The idea was that this would eliminate a lot of the magic strings representing paths and IDs.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Visual List Sitecore Shared Source contribution
+redirect_from: /blog/2012/04/visual-list-shared-source-contribution/
 ---
 
 On a recent project I used the [Visual List field](http://trac.sitecore.net/FieldTypes/wiki/VisualList)&nbsp;from the Sitecore Shared Source repository. The [FieldTypes project](http://trac.sitecore.net/FieldTypes/) has been around for a while so I was&nbsp;surprised to find that the field type was missing support for languages and item versions and had poor integration with the Content Editor's field validation facility.

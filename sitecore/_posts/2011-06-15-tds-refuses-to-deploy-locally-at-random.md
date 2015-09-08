@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TDS refuses to deploy locally at random?
+redirect_from: /blog/2011/06/tds-refuses-to-deploy-locally-at-random/
 ---
 
 It turns out that the project build order can get jumbled somehow. Luckily the fix was quite simple:

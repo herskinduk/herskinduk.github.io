@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sitecore authentication with WIF
+redirect_from: /blog/2012/04/sitecore-authentication-with-wif/
 ---
 
 I was recently asked by my friends over at [Confused.com](http://www.confused.com/) to look into using [Windows Identity Foundation](http://msdn.microsoft.com/en-us/security/aa570351) to do claims based authentication for Sitecore. WIF comes pre-packed with all you need to do federated security and you can use the components either as they are or customise them to meet your specific requirements.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sitecore + TDS + T4 Text Template
+redirect_from: /blog/2011/04/sitecore-tds-t4-text-template/
 ---
 
 Inspired by the [Compiled Domain Model](http://trac.sitecore.net/CompiledDomainModel) and other code generation tools for Sitecore, I came up with a different approach to generating classes and eliminating magic strings.

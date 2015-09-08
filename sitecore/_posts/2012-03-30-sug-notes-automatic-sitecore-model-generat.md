@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "SUG notes: Automatic Sitecore Model Generation"
+redirect_from: /blog/2012/03/sug-notes-automatic-sitecore-model-generat/
 ---
 
 I presented my [model generation concept](/blog/2012/03/automatic-sitecore-model-generation) at this months Sitecore User Group in London and Bristol. For the benefit of everyone who attended I have put together a couple of links:

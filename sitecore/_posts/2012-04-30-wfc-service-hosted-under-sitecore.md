@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WCF Service hosted under Sitecore
+redirect_from: /blog/2012/04/wfc-service-hosted-under-sitecore/
 ---
 
 I just spend a little to long getting a [Windows Communication Foundation](http://msdn.microsoft.com/en-us/netframework/aa663324) service working with Sitecore. It should be straight forward (and I guess it used to be!?). I followed the instructions from this blog post on [configuring Sitecore to host WCF services](http://sitecoreblog.alexshyba.com/2009/03/attach-wcf-services-to-sitecore-context.html).

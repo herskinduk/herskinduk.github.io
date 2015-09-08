@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Automatic Sitecore Model Generation
+redirect_from: /blog/2012/03/automatic-sitecore-model-generation/
 ---
 
 There are several model frameworks available for Sitecore. They all have their strengths and weaknesses – but common for all of them are that they represent Sitecore items as strongly typed objects in code.

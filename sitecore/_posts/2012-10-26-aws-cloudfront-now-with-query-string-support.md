@@ -1,6 +1,7 @@
 ---
 layout: post
 title: AWS CloudFront - now with query string support
+redirect_from: /blog/2012/10/aws-cloudfront-now-with-query-string-support/
 ---
 
 Great news - or should I say old news!?

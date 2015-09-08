@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sitecore Most Valuable Professionals 2009
+redirect_from: /blog/2010/27/sitecore-most-valuable-professionals-2009/
 ---
 
 Today [Sitecore announced](http://www.sitecore.net/News/Press-releases/2009/Sitecore-MVPs.aspx) the Sitecore MVPs for 2009 and I&#39;m thoroughly chuffed to find my name on the list.

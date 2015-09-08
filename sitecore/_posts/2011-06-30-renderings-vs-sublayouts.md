@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Renderings vs. Sublayouts
+redirect_from: /blog/2011/06/renderings-vs-sublayouts/
 ---
 
 This is a question that I'm confronted with again and again - and just today it surfaced again: _When should we use&nbsp;Sublayouts&nbsp;and when should we use&nbsp;XSL&nbsp;Renderings?&nbsp;Which is better?_

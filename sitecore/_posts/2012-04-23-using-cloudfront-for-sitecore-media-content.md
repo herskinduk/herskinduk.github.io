@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using CloudFront CDN for Sitecore media content
+redirect_from: /blog/2012/04/using-cloudfront-for-sitecore-media-content/
 ---
 Ever since I discovered that Amazon CloudFront supported custom origins I have been thinking about how it could be used in a Sitecore solution. If you [set up a custom origin](http://docs.amazonwebservices.com/AmazonCloudFront/latest/DeveloperGuide/CreatingDistributions.html) pointing to your website it will effectively work as a caching proxy (edge cache). This can take some of the load off your Sitecore server and give a general boost to page performance* which again could have a positive affect on your SEO ranking.
 

@@ -1,6 +1,7 @@
 ---
 title: Troublesome HR's and the RTE
 layout: post
+redirect_from: /blog/2010/01/troublesome-hrs-and-the-rte/
 ---
 
 I recently came across a (yet another) IE7 annoyance. If you try and style a HR tag with a background image it is seemingly impossible to avoid the border around the image in IE7. After scouring the web I came across [a solution that solves the problem](http://www.sovavsiti.cz/css/hr.html) and retains the HR tag (I reckon that is the best solution from a semantic point of view).

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sitecore Most Valuable Professionals 2011
+redirect_from: /blog/2012/04/sitecore-most-valued-professional-2011/
 ---
 
 Sitecore announced the Sitecore MVPs for 2011 in a [press release](http://www.marketwire.com/press-release/sitecore-recognizes-exceptional-technical-community-leaders-from-around-the-world-1641616.htm) today. I'm honoured&nbsp;to be selected for the MVP program for a second time and hope that it will be a constructive two years ahead where we can make Sitecore even better. Here is an excerpt from the press release:
