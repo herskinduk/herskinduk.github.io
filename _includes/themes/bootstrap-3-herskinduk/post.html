@@ -1,0 +1,58 @@
+
+
+<div class="row post-full">
+  <div class="col-md-8">
+
+    <div class="page-header">
+      <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+    </div>
+
+    <div class="date">
+      <span>Posted {% assign prettydate = page.date %}{% include JB/pretty_date %} by {{site.author.name}}</span>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+
+  {% unless page.categories == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      {% assign categories_list = page.categories %}
+      {% include JB/categories_list %}
+    </ul>
+  {% endunless %}  
+
+  {% unless page.tags == empty %}
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      {% assign tags_list = page.tags %}
+      {% include JB/tags_list %}
+    </ul>
+  {% endunless %}  
+  
+    <hr>
+    <ul class="pagination">
+    {% if page.previous %}
+      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+    {% else %}  
+      <li class="prev disabled"><a>&laquo; Previous</a></li>
+    {% endif %}
+      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+    {% if page.next %}
+      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+    {% else %}
+      <li class="next disabled"><a>Next &raquo;</a>
+    {% endif %}
+    </ul>
+    <hr>
+    {% include JB/comments %}
+  </div>
+
+  <div class="col-md-3 col-md-offset-1">
+    <h3>About the author</h3>
+    <p>
+        Kern is a Sitecore specialist based in United Kingdom. He has worked with all major versions of Sitecore since 2003 and has in-depth experience with the product both from a development and an architectural point of view.
+    </p>
+    <img src="http://static1.herskind.co.uk/%5Epub=NjM0NzAyMTEzNjYwMDAwMDAw%5Eh=191%5Ew=191%5Ecrop=1/~/media/Images/Projects/_W7N0044.ashx" alt="Kern Herskind Nightingale" width="262" height="131">
+  </div>
+</div>
