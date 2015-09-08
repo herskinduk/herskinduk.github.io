@@ -11,45 +11,47 @@ For some time I have been using [TDS](http://hhogdev.com/products/team-developme
 
 This is a proof of concept using T4:
 
-<pre class="brush: csharp">&lt;#@ template hostspecific=&quot;true&quot; language=&quot;C#&quot; #&gt;
-&lt;#@ assembly name=&quot;C:\Program Files (x86)\Hedgehog Development\Team Development for Sitecore (VS2010)\HedgehogDevelopment.SitecoreCommon.Data.dll&quot; #&gt;
-&lt;#@ assembly name=&quot;C:\Program Files (x86)\Hedgehog Development\Team Development for Sitecore (VS2010)\HedgehogDevelopment.SitecoreCommon.Data.Parser.dll&quot; #&gt;
-&lt;#@ import namespace=&quot;HedgehogDevelopment.SitecoreCommon.Data&quot; #&gt;
+{% highlight csharp %}
+<#@ template hostspecific="true" language="C#" #>
+<#@ assembly name="C:\Program Files (x86)\Hedgehog Development\Team Development for Sitecore (VS2010)\HedgehogDevelopment.SitecoreCommon.Data.dll" #>
+<#@ assembly name="C:\Program Files (x86)\Hedgehog Development\Team Development for Sitecore (VS2010)\HedgehogDevelopment.SitecoreCommon.Data.Parser.dll" #>
+<#@ import namespace="HedgehogDevelopment.SitecoreCommon.Data" #>
 using System;   
 
-&lt;# 
-SerializedTreeDataSource sitecoreDataSource = new SerializedTreeDataSource(this.Host.ResolvePath(&quot;..\\Herskind.Tds&quot;));
+<# 
+SerializedTreeDataSource sitecoreDataSource = new SerializedTreeDataSource(this.Host.ResolvePath("..\\Herskind.Tds"));
 
 foreach (var template in sitecoreDataSource.Templates)
 {    
-#&gt;
-public class &lt;#= template.Name.Replace(&quot; &quot;, &quot;&quot;) #&gt;
+#>
+public class <#= template.Name.Replace(" ", "") #>
 {
-&lt;#
+<#
     foreach(var section in template.Sections)
     {
-#&gt;
-    // Section: &lt;#= section.Name #&gt;
-&lt;#
+#>
+    // Section: <#= section.Name #>
+<#
         foreach(var field in section.OwnFields)
         {
-#&gt;
-    // Field: &lt;#= field.Name #&gt; - Data type: &lt;#= field.Fields[&quot;type&quot;] #&gt;
-&lt;#
+#>
+    // Field: <#= field.Name #> - Data type: <#= field.Fields["type"] #>
+<#
         }
     }
 
     foreach(var baseitemid in template.BaseTemplateIds)
     {
-#&gt;
-    // Base: &lt;#= baseitemid.ToString() #&gt;
-&lt;#
+#>
+    // Base: <#= baseitemid.ToString() #>
+<#
     }
-#&gt;
+#>
 }
-&lt;#
+<#
 }
-#&gt;
-</pre>
+#>
+{% endhighlight %}
+
 
 I realise that there is some way from this to fully automated model generation but I thought it was a fun demo.
