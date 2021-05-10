@@ -57,3 +57,16 @@
   _gs('GSN-503021-P');
   _gs('set', 'anonymizeIP', true);
 </script>
+<!-- TruConversion for herskind.co.uk -->
+<script type="text/javascript">
+    var _tip = _tip || [];
+    (function(d,s,id){
+        var js, tjs = d.getElementsByTagName(s)[0];
+        if(d.getElementById(id)) { return; }
+        js = d.createElement(s); js.id = id;
+        js.async = true;
+        js.src = d.location.protocol + '//app.truconversion.com/ti-js/15969/28d9f.js';
+        tjs.parentNode.insertBefore(js, tjs);
+    }(document, 'script', 'ti-js'));
+</script>
+                        
